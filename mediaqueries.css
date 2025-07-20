@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+    .game--container {
+        max-width: 95vw;
+        gap: 2px;
+    }
+
+    .cell {
+        font-size: clamp(16px, 8vw, 32px);
+    }
+
+    .game--title {
+        font-size: 6vw;
+    }
+
+    .game--status {
+        font-size: 5vw;
+    }
+
+    .game--restart {
+        font-size: 4vw;
+        padding: 10px 20px;
+    }
+}
