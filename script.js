@@ -6,7 +6,7 @@ let currentPlayer = "X";
 
 let gameState = ["","","","","","","","",""];
 
-const winningMessgae = () => `Player ${currentPlayer} has won!`;
+const winningMessage = () => `Player ${currentPlayer} has won!`;
 const drawMessage = () => `Game ended in a draw!`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 
